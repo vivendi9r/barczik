@@ -1,0 +1,43 @@
+
+.banner{
+  position: relative;
+
+  &__img{
+    width: 100%;
+  }
+  &__text{
+    z-index: 2;
+    position: absolute;
+    color: white;
+    &.main{
+      bottom: 70px;
+      font-size: 90px;
+      font-weight: 900;
+      left: 42%;
+    }
+    &.desc{
+      bottom: 35px;
+      font-size: 23px;
+      // font-weight: 900;
+      left: 37%;
+    }
+  }
+}
+.text{
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 0 0;
+}
+.boxes{
+  display: flex;
+  justify-content: center;
+  &__box{
+    img{
+
+      width: 300px;
+      // background-color: red;
+      height: 300px;
+      margin: 30px;
+    }
+  }
+}

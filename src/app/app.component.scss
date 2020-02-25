@@ -1,0 +1,27 @@
+.navbar{
+  background-color: #F2F2F2;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 74%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 200px;
+  align-items: center;
+  z-index: 10;
+
+  &__nav-item{
+    margin: 10px;
+    color: #464646;
+    //font-family: "Calibri Light", sans-serif;
+    cursor: pointer;
+    &:hover{
+      //color: #7F7E7E;
+      opacity: 60%;
+    }
+  }
+  &__social-media{
+    position: absolute;
+    right: 200px;
+  }
+}
