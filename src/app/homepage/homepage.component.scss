@@ -1,43 +1,76 @@
 
 .banner{
-  position: relative;
 
   &__img{
     width: 100%;
   }
   &__text{
     z-index: 2;
-    position: absolute;
+    position: relative;
     color: white;
+    display: flex;
+    bottom: 200px;
+    justify-content: center;
+
     &.main{
-      bottom: 70px;
       font-size: 90px;
       font-weight: 900;
-      left: 42%;
     }
     &.desc{
-      bottom: 35px;
       font-size: 23px;
-      // font-weight: 900;
-      left: 37%;
     }
   }
 }
 .text{
   display: flex;
   justify-content: center;
-  margin: 25px 0 0 0;
+  margin: -115px 0 0 0;
 }
 .boxes{
   display: flex;
   justify-content: center;
   &__box{
+    position: relative;
     img{
-
       width: 300px;
       // background-color: red;
       height: 300px;
       margin: 30px;
     }
+  }
+  &__box-label{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    bottom: 90px;
+    width: 180px;
+    height: 75px;
+    background-color: #2b31467d;
+    color: #ffffff;
+    border: solid 1px;
+    border-radius: 12px;
+    cursor: pointer;
+
+    &:hover{
+      background-color: rgba(43, 49, 70, 0.8);
+    }
+  }
+}
+
+.recommend-bar{
+  background-color: #F2F2F2;
+  height: 60px;
+  width: fill-available;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &__item{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px #201d1d;
+    margin: 0 170px;
   }
 }
