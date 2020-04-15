@@ -1,5 +1,15 @@
 .footer{
-  &__img{
-    width: fill-available;
+  background-color: #F2F2F2;
+  height: 300px;
+  position: relative;
+  //&__img{
+  //  width: fill-available;
+  //  width: stretch;
+  //}
+  .copyright{
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
   }
 }

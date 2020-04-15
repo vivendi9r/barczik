@@ -3,7 +3,8 @@
   height: 60px;
   position: fixed;
   top: 0;
-  width: fill-available;
+  //width: fill-available;
+  width: stretch;
   display: flex;
   flex-direction: row;
   padding: 0 200px;

@@ -62,7 +62,8 @@
 .recommend-bar{
   background-color: #F2F2F2;
   height: 60px;
-  width: fill-available;
+  //width: fill-available;
+  width: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
